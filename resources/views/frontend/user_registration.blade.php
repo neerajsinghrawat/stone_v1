@@ -76,11 +76,20 @@
 
                                         <div class="mb-3">
                                             <label class="aiz-checkbox">
+                                                <input type="checkbox" name="is_salesperson" value="1">
+                                                <span class=opacity-60>{{ translate('Register as Salesperson')}}</span>
+                                                <span class="aiz-square-check"></span>
+                                            </label>
+                                        </div>
+
+                                        <div class="mb-3">
+                                            <label class="aiz-checkbox">
                                                 <input type="checkbox" name="checkbox_example_1" required>
                                                 <span class=opacity-60>{{ translate('By signing up you agree to our terms and conditions.')}}</span>
                                                 <span class="aiz-square-check"></span>
                                             </label>
                                         </div>
+
 
                                         <div class="mb-5">
                                             <button type="submit" class="btn btn-primary btn-block fw-600">{{  translate('Create Account') }}</button>
